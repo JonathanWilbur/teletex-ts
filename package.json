@@ -1,0 +1,48 @@
+{
+    "name": "teletex",
+    "version": "1.0.0",
+    "description": "Teletex / T.61 string decoding",
+    "keywords": [
+        "teletex",
+        "t61",
+        "t.61"
+    ],
+    "homepage": "https://github.com/JonathanWilbur/teletex-ts",
+    "bugs": {
+        "url": "https://github.com/JonathanWilbur/teletex-ts/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JonathanWilbur/teletex-ts.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Jonathan M. Wilbur",
+        "email": "jonathan@wilbur.space",
+        "url": "https://github.com/JonathanWilbur"
+    },
+    "contributors": [
+        {
+            "email": "jonathan@wilbur.space",
+            "name": "Jonathan M. Wilbur",
+            "url": "https://github.com/JonathanWilbur"
+        }
+    ],
+    "type": "module",
+    "main": "index.mjs",
+    "module": "index.mjs",
+    "types": "index.d.mts",
+    "scripts": {
+        "build": "npx tsc",
+        "node-test": "node --test ./index.spec.mjs"
+    },
+    "devDependencies": {
+        "@types/node": "^26.1.2",
+        "typescript": "^7.0.2"
+    },
+    "files": [
+        "LICENSE.txt",
+        "README.md",
+        "index.mjs"
+    ]
+}

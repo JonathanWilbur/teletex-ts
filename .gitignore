@@ -1,0 +1,6 @@
+*.mjs
+*.js
+*.d.mts
+*.d.ts
+*.map
+node_modules/

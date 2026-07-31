@@ -37,3 +37,10 @@ const input = Uint8Array.from([
 const output = teletexToString(input);
 assert.equal(output, "Big$Money$");
 ```
+
+## See Also
+
+- [Meerkat DSA](https://wildboar-software.github.io/directory/), an X.500 DSA
+  (not just LDAP server) that I wrote, which will use this.
+- [ASN.1 Typescript Libraries](https://github.com/Wildboar-Software/asn1-typescript-libraries)
+  where this will be used (see `or-address`, `pki-stub`, `x500`, and `x400` at least)

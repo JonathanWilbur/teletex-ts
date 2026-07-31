@@ -1,5 +1,7 @@
 # ITU-T Recommendation T.61 Teletex-to-Unicode in TypeScript
 
+[![JSR](https://jsr.io/badges/@wildboar/teletex)](https://jsr.io/@wildboar/teletex)
+
 ITU-T Recommendation T.61 specifies the T.61 character set for use in an
 ancient telecommunications service called "Teletex." For this reason, the
 words "Teletex" and "T.61" are often used interchangeably when talking about

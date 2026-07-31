@@ -18,6 +18,9 @@ See [the Wikipedia page on T.61](https://en.wikipedia.org/wiki/ITU_T.61).
 This module is ESM-only. I will not produce a CommonJS equivalent. Please get
 with the times and use ESM.
 
+This module has no dependencies and exports a single function that has 100%
+test coverage and really simple code.
+
 This code was written by a human, with some assistance from Cursor IDE. I would
 say about 90% of the code in this module was written by a real human.
 

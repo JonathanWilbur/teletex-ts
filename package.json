@@ -34,9 +34,13 @@
     "types": "index.d.mts",
     "scripts": {
         "build": "npx tsc",
-        "node-test": "node --test ./index.spec.mjs"
+        "node-test": "node --test ./index.spec.mjs",
+        "node-test:coverage": "node --test --experimental-test-coverage index.spec.mjs",
+        "deno-test": "deno test --allow-read --allow-write --allow-env --allow-run index.spec.mjs",
+        "bun-test": "bun test ./index.spec.mjs"
     },
     "devDependencies": {
+        "@types/deno": "^2.7.0",
         "@types/node": "^26.1.2",
         "typescript": "^7.0.2"
     },

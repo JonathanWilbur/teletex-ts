@@ -1,6 +1,6 @@
 {
     "name": "teletex",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Teletex / T.61 string decoding",
     "keywords": [
         "teletex",
@@ -47,6 +47,7 @@
     "files": [
         "LICENSE.txt",
         "README.md",
+        "CHANGELOG.md",
         "index.mjs"
     ]
 }

@@ -1,6 +1,6 @@
 {
     "name": "@wildboar/teletex",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "exports": {
         ".": "./index.mts"
@@ -9,6 +9,7 @@
         "include": [
             "LICENSE.txt",
             "README.md",
+            "CHANGELOG.md",
             "index.mts"
         ]
     }
